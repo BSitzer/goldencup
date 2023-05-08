@@ -1022,3 +1022,20 @@ strong {
   }
 }
 
+.slideshow {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 800px;
+  height: 450px;
+  margin: 0 auto;
+}
+.slideshow img {
+  display: inline-block;
+  width: 800px;
+  height: 450px;
+  animation: slide 20s linear infinite;
+}
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-2400px); }
+}
