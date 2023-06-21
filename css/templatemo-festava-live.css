@@ -575,7 +575,7 @@ strong {
 .ticket-form .form-check .form-check-label {
   display: block;
   position: absolute;
-  top: 50%;
+  top: 50%;btn custom-btn d-lg-none ms-auto me-
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 12px;
